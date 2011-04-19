@@ -18,8 +18,8 @@
 // │ # ¶ │ 1 „ │ 2 “ │ 3 ” │ 4 ≤ │ 5 ≥ ┣━━━━━┫ 6   │ 7 ¬ │ 8 ¼ │ 9 ½ │ 0 ¾ │ ° ′ │ ` ″ ┃calc ┃
 // │ $ – │ " — │ < « │ > » │ ( [ │ ) ] ┃ ⌫   ┃ @ ^ │ + ± │ - − │ / ÷ │ * × │ = ≠ │ % ‰ ┃     ┃
 // ┢━━━━━╅─────┼─────┼─────┼─────┼─────┨     ┠─────┼─────┼─────┼─────┼─────┼─────┼─────╊━━━━━┫
-// ┃ ↹   ┃ B ¦ │ É ˝ │ P § │ O Œ │ È ` ┃     ┃ !   │ V   │ D Ð │ L   │ J Ĳ │ Z Ə │ W   ┃mail ┃
-// ┃     ┃ b | │ é ˊ │ p & │ o œ │ è ` ┃     ┃ ˆ ¡ │ v ˇ │ d ð │ l / │ j ĳ │ z ə │ w ˘ ┃     ┃
+// ┃ ↹   ┃ B ¦ │ É ˝ │ P § │ O Œ │ È ` ┃     ┃ W   │ V   │ D Ð │ L   │ J Ĳ │ Z Ə │ !   ┃mail ┃
+// ┃     ┃ b | │ é ˊ │ p & │ o œ │ è ` ┃     ┃ w ˘ │ v ˇ │ d ð │ l / │ j ĳ │ z ə │ ^ ¡ ┃     ┃
 // ┣━━━━━╉─────┼─────┼─────┼─────┼─────╊━━━━━╉─────┼─────┼─────┼─────┼─────┼─────╆━━━━━╋━━━━━┫
 // ┃ ⇧   ┃ A Æ │ U Ù │ I ˙ │ E ¤ │ ; ̛  ┃ ⏎   ┃ C ſ │ T Þ │ S ẞ │ R ™ │ N   │ M º ┃ ⇧   ┃caps ┃
 // ┃     ┃ a æ │ u ù │ i ¨ │ e € │ , ’ ┃     ┃ c © │ t þ │ s ß │ r ® │ n ˜ │ m ¯ ┃     ┃     ┃
@@ -64,13 +64,13 @@ xkb_symbols "bepode" {
     key <AD03> { [               p,            P,               ampersand,              section ] }; // p P & §
     key <AD04> { [               o,            O,                      oe,                   OE ] }; // o O œ Œ
     key <AD05> { [          egrave,       Egrave,              dead_grave,                grave ] }; // è È ` `
-    key <AD06> { [ dead_circumflex,       exclam,              exclamdown                       ] }; // ^ ! ¡
+    key <AD06> { [               w,            W,              dead_breve                       ] }; // w W ˘
     key <AD07> { [               v,            V,              dead_caron                       ] }; // v V ˇ
     key <AD08> { [               d,            D,                     eth,                  ETH ] }; // d D ð Ð
     key <AD09> { [               l,            L,             dead_stroke                       ] }; // l L /
     key <AD10> { [               j,            J,                   U0133,                U0132 ] }; // j J ĳ Ĳ
     key <AD11> { [               z,            Z,                   schwa,                SCHWA ] }; // z Z ə Ə
-    key <AD12> { [               w,            W,              dead_breve                       ] }; // w W ˘
+    key <AD12> { [ dead_circumflex,       exclam,              exclamdown                       ] }; // ^ ! ¡
 
     // Third row
     key <AC01> { [               a,            A,                      ae,                   AE ] }; // a A æ Æ
