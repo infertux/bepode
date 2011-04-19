@@ -1,0 +1,20 @@
+You can install and test this layout in a few steps:
+
+# Download the layout:
+wget https://github.com/infertux/bepode/blob/master/bepode \
+    --no-check-certificate -O /tmp/bepode
+
+# Move it into the right directory (must be root):
+sudo mv /tmp/bepode /usr/share/X11/xkb/symbols/
+
+# Before actually switching to bepode layout, you may open another console that
+# will help you return to your current layout:
+setxkbmap -query | grep layout: | awk '{print $2}'
+# It should display something like 'fr', thus:
+setxkbmap fr # without hitting Enter!
+
+# Now, go back in your previous console and type:
+setxkbmap bepode
+
+# Enjoy!
+

@@ -17,7 +17,7 @@ But, it also sucks:
     - `/` too far in the digits row [`FIXME`]
 
 That’s why I try some changes with _bepode_. Yeah, it’s an awful portmanteau
-word between _bepo_ and _code_ and I havn’t taken the time to find a better
+word between _bepo_ and _code_ and I haven’t taken the time to find a better
 name for now.
 
 __Disclaimer__: This layout is primarily designed for a
