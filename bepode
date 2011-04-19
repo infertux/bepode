@@ -16,7 +16,7 @@
 // ┃ esc ┃ F1  ┃ F2  ┃ F3  ┃ F4  ┃ F5  ┃     ┃ F6  ┃ F7  ┃ F8  ┃ F9  ┃ F10 ┃ F11 ┃ F12 ┃ num ┃
 // ┡━━━━━╇━━━━━╇━━━━━╇━━━━━╇━━━━━╇━━━━━┫     ┣━━━━━╇━━━━━╇━━━━━╇━━━━━╇━━━━━╇━━━━━╇━━━━━╋━━━━━┫
 // │ # ¶ │ 1 „ │ 2 “ │ 3 ” │ 4 ≤ │ 5 ≥ ┣━━━━━┫ 6   │ 7 ¬ │ 8 ¼ │ 9 ½ │ 0 ¾ │ ° ′ │ ` ″ ┃calc ┃
-// │ $ – │ " — │ « < │ » > │ ( [ │ ) ] ┃ ⌫   ┃ @ ^ │ + ± │ - − │ / ÷ │ * × │ = ≠ │ % ‰ ┃     ┃
+// │ $ – │ " — │ < « │ > » │ ( [ │ ) ] ┃ ⌫   ┃ @ ^ │ + ± │ - − │ / ÷ │ * × │ = ≠ │ % ‰ ┃     ┃
 // ┢━━━━━╅─────┼─────┼─────┼─────┼─────┨     ┠─────┼─────┼─────┼─────┼─────┼─────┼─────╊━━━━━┫
 // ┃ ↹   ┃ B ¦ │ É ˝ │ P § │ O Œ │ È ` ┃     ┃ !   │ V   │ D Ð │ L   │ J Ĳ │ Z Ə │ W   ┃mail ┃
 // ┃     ┃ b | │ é ˊ │ p & │ o œ │ è ` ┃     ┃ ˆ ¡ │ v ˇ │ d ð │ l / │ j ĳ │ z ə │ w ˘ ┃     ┃
@@ -46,8 +46,8 @@ xkb_symbols "bepode" {
     // First row
     key <TLDE> { [          dollar,   numbersign,        endash,       paragraph ] }; // $ # – ¶
     key <AE01> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [        quotedbl,            1,         emdash, doublelowquotemark ] }; // " 1 — „
-    key <AE02> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [   guillemotleft,            2,           less,  leftdoublequotemark ] }; // « 2 < “
-    key <AE03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  guillemotright,            3,        greater, rightdoublequotemark ] }; // » 3 > ”
+    key <AE02> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [            less,            2,  guillemotleft,  leftdoublequotemark ] }; // < 2 « “
+    key <AE03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [         greater,            3, guillemotright, rightdoublequotemark ] }; // > 3 » ”
     key <AE04> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [       parenleft,            4,    bracketleft,      lessthanequal ] }; // ( 4 [ ≤
     key <AE05> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [      parenright,            5,   bracketright,   greaterthanequal ] }; // ) 5 ] ≥
     key <AE06> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [              at,            6,    asciicircum                 ] }; // @ 6 ^
