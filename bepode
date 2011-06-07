@@ -28,7 +28,7 @@
 // ┃     ┃ à \ │ y { │ x } │ . … │ k ~ ┃     ┃ ' ¿ │ q ˚ │ g µ │ h † │ f ˛ │ ç ¸ ┃     ┃     ┃
 // ┣━━━━━╋━━━━━╈━━━━━╈━━━━━╅─────┴─────┺━━━━━┹─────┴─────╆━━━━━╈━━━━━╈━━━━━╈━━━━━╋━━━━━╋━━━━━┫
 // ┃ctrl ┃pp   ┃     ┃ws   ┃                             ┃     ┃ ⇱   ┃  ⬆  ┃ ⇲   ┃ctrl ┃ ⇞   ┃
-// ┃     ┃     ┃     ┃     ┃  NBSP            NBSP fine  ┃     ┃     ┃     ┃     ┃     ┃     ┃
+// ┃     ┃     ┃     ┃     ┃  NBSp            NBSp fine  ┃     ┃     ┃     ┃     ┃     ┃     ┃
 // ┣━━━━━╋━━━━━┻━━┳━━┻━━━━━┫  ␣ (Space)       _          ┣━━━━━╋━━━━━╋━━━━━╋━━━━━┫     ┣━━━━━┫
 // ┃fn   ┃home    ┃alt     ┠─────────────────────────────┨alt  ┃  ⬅  ┃  ⬇  ┃  ➡  ┃     ┃ ⇟   ┃
 // ┃     ┃        ┃        ┃                             ┃     ┃     ┃     ┃     ┃     ┃     ┃
@@ -87,7 +87,7 @@ xkb_symbols "bepode" {
     key <BKSL> { [        ccedilla,     Ccedilla,            dead_cedilla,      dead_belowcomma ] }; // ç Ç ¸ ,
 
     // Fourth row
-    key <LSGT> { [     ecircumflex,  Ecircumflex,                   slash                       ] }; // ê Ê /
+    key <LSGT> { [     ecircumflex,  Ecircumflex,                   slash                       ] }; // ê Ê /   // 102th key
     key <AB01> { [          agrave,       Agrave,               backslash                       ] }; // à À \
     key <AB02> { [               y,            Y,               braceleft,  leftsinglequotemark ] }; // y Y { ‘
     key <AB03> { [               x,            X,              braceright, rightsinglequotemark ] }; // x X } ’
@@ -99,7 +99,7 @@ xkb_symbols "bepode" {
     key <AB09> { [               h,            H,                  dagger,         doubledagger ] }; // h H † ‡
     key <AB10> { [               f,            F,             dead_ogonek,          ordfeminine ] }; // f F ˛ ª
 
-    key <SPCE> { [           space, nobreakspace,              underscore,                U202F ] }; // ␣ NBSP _ NBSPF
+    key <SPCE> { [           space, nobreakspace,              underscore,                U202F ] }; // ␣ NBSp _ NBSpF
 };
 
 ////////////////////////////////////////////////////////////////////////////////
