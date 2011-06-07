@@ -30,3 +30,18 @@ Here are the differences with the official Bépo layout:
 - `w` key swapped with the `^` one
 - to be continued…
 
+*EDIT: paused for now, some foxy Vim mappings do the trick as well…*
+
+    noremap « <
+    noremap < «
+    noremap! « <
+    noremap! < «
+    …
+
+See also:
+---------
+- [http://bepo.fr/wiki/Utilisateur:Flamme/b%C3%A9po-intl](http://bepo.fr/wiki/Utilisateur:Flamme/b%C3%A9po-intl)
+- [http://bepo.fr/wiki/Utilisateur:Kaze/B%C3%A9po-intl](http://bepo.fr/wiki/Utilisateur:Kaze/B%C3%A9po-intl)
+- [http://bepo.fr/wiki/Utilisateur:Kikoun/bepo_intl](http://bepo.fr/wiki/Utilisateur:Kikoun/bepo_intl)
+- [http://bepo.fr/wiki/Utilisateur:Nemolivier](http://bepo.fr/wiki/Utilisateur:Nemolivier)
+
